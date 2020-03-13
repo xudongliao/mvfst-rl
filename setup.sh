@@ -84,7 +84,7 @@ function setup_pantheon() {
   # pantheon/third_party/mvfst-rl to $BASE_DIR.
   echo -e "Cloning Pantheon into $PANTHEON_DIR"
   # TODO: Update repo url
-  git clone git@github.com:viswanathgs/pantheon.git "$PANTHEON_DIR"
+  git clone https://github.com/viswanathgs/pantheon.git "$PANTHEON_DIR"
 
   echo -e "Installing Pantheon dependencies"
   cd "$PANTHEON_DIR"
